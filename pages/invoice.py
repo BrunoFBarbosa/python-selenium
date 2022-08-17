@@ -12,6 +12,8 @@ class Invoice(CommonPage):
     def page_is_visible(self):
         """
         Verify the invoice page is visible
+        Returns:
+            (bool): whether the page is visible or not
         """
         return self._element_is_visible(self._invoice_header)
     

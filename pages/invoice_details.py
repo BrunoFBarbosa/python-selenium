@@ -101,7 +101,7 @@ class InvoiceDetails(CommonPage):
          """
         element = self._find_element(self._customer_info)
         customer_info = element.text.split("\n")
-        return customer_info[0] == data[0] and customer_info[1] == data[1] and customer_info[2] == data[2]
+        return customer_info == data
 
     def invoice_billing_details_is_visible(self, column, value, position):
         """

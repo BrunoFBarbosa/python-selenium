@@ -37,5 +37,7 @@ class Login(CommonPage):
     def error_message_is_visible(self):
         """
         Verify the login error message is visible
+        Returns:
+            (bool): whether the error message is visible or not
         """
         return self._element_is_visible(self._login_error_message)
