@@ -6,7 +6,7 @@ from selenium import webdriver
 from utils.constants import CHROME_DRIVER_PATH
 
 
-class TestUI:
+class TestLogin:
     
     @fixture
     def _setup(self, request):

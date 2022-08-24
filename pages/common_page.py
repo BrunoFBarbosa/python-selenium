@@ -55,7 +55,7 @@ class CommonPage:
 
     def _type_text(self, text, locator):
         """
-        Type the tex string into the element identified by locator
+        Type the text string into the element identified by locator
         Args:
             text (str): the text to type
             locator (dict): the element's strategy to be located and the locator value
