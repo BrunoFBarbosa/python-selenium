@@ -41,3 +41,6 @@ You can also generate a html report using the --html flag and specifing the file
 ```
 pytest file.py --html=report.html
 ```
+
+# Reference
+[Saucelabs](https://training.saucelabs.com/codelabs/Module3-SeleniumPython/index.html)
